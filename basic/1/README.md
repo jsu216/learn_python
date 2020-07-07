@@ -20,16 +20,17 @@ C is a general purpose procedural programming language. First developed at early
 C++ is an extension of the C language. It is object oriented and also available on various platforms.
 
 - Java
-First developed in 1995, Java is a general purpose, class-based object oriented language. The compiled code from Java program is not binary code, but JVM byte-code. It can be run on any computer system that has JVM installed.
 
-- Java has very wide application on desktop application, web application, and mobile app.
+First developed in 1995, Java is a general purpose, class-based object oriented language. The compiled code from Java program is not binary code, but JVM byte-code. It can be run on any computer system that has JVM installed.
+Java has very wide application on desktop application, web application, and mobile app.
 
 - .NET
+
 .Net is a set of programming language that can run on Microsoft .Net framework.
 
 - Python
-Python is an interpreted general purpose language created in 1991. It was designed to write easy to understand program.
 
+Python is an interpreted general purpose language created in 1991. It was designed to write easy to understand program.
 
 ## Python
 
