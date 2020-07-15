@@ -245,7 +245,7 @@ A map (also referred to as a dict, short for dictionary) is a collection of thin
 The difference between maps and lists or tuples is that each item in a map has a key and a corresponding value.
 
 ```console
->>> favorite_sports = {'Ralph Williams': 'Football', 'Michael Tippett': 'Basketball', 'Edward Elgar': 'Baseball', 'Rebecca Clarke': 'Volleyball', 'Ethel Smyth': 'Badminton', 'Frank Bridge': 'Rugby']
+>>> favorite_sports = {'Ralph Williams': 'Football', 'Michael Tippett': 'Basketball', 'Edward Elgar': 'Baseball', 'Rebecca Clarke': 'Volleyball', 'Ethel Smyth': 'Badminton', 'Frank Bridge': 'Rugby'}
 ```
 
 Key |   Value
