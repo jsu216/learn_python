@@ -1,3 +1,3 @@
 age = 13
 if age < 20:
-    print('You are too yound!')
+    print('You are too young!')
