@@ -32,6 +32,25 @@ Do you still remember the term `block`?
 python3 scope.py
 ```
 
+## Handle exceptions
+
+Exceptions are the errors happened while program running. If the errors are not handled in Python program, it will be thrown to the system (OS).
+
+```python
+try:
+    item = x[0]
+except TypeError:
+    #this will print only on a TypeError exception
+    print “x isn’t a list!”
+else:
+    # executes if the code in the “try” does NOT
+    # raise an exception
+    print “You didn’t raise an exception!”
+finally:
+    #this will always print
+    print “processing complete”
+```
+
 ## Module
 
 Modules are used to group functions, variables, and other things together into larger, more powerful programs.
