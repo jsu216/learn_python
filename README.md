@@ -139,7 +139,6 @@ while counter > 0
 
 While loops until the condition (counter > 0) is False
 
-
 ### Handle Exceptions
 
 Exceptions are the errors happened while program running. If the errors are not handled in Python program, it will be thrown to the system (OS).
