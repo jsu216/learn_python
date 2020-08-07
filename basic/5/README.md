@@ -51,6 +51,10 @@ finally:
     print “processing complete”
 ```
 
+```shell script
+python3 tryexcept.py
+```
+
 ## Module
 
 Modules are used to group functions, variables, and other things together into larger, more powerful programs.
