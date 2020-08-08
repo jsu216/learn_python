@@ -21,6 +21,10 @@ python3 while.py
 ### Print the following patterns on the screen using `for` or `while` loop
 
 ```text
+ooooooooo
+```
+
+```text
 xxxxxxxxx
 xxxxxxxxx
 xxxxxxxxx
