@@ -57,8 +57,7 @@ The `float` function converts a string or a number into a floating-point number,
 123.456789
 ```
 
-The `int` function converts a string or a number into a whole num-
-ber (or integer), which basically means that everything after the decimal point is dropped. For example, here’s how to convert a floating-point number into a plain integer:
+The `int` function converts a string or a number into a whole number (or integer), which basically means that everything after the decimal point is dropped. For example, here’s how to convert a floating-point number into a plain integer:
 
 ```text
 >>> int(123.456)
@@ -158,6 +157,23 @@ The `sum` function adds items in a list and returns the total. Here’s an examp
 2250
 ```
 
+- round function
+The `round` function returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
+The default number of decimals is 0, meaning that the function will return the nearest integer.
+
+__A interesting behavior__
+try the following and see if the results match your expectation
+
+```python
+round(1.4)
+round(1.5)
+round(2.4)
+round(2.5)
+round(2.6)
+
+round(2.51)
+round(2.501)
+```
 
 ### Create a function
 
