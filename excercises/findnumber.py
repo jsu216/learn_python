@@ -10,4 +10,4 @@ for number in my_numbers:
         biggest = number
 
 print(f"Biggest number is {biggest}")
-print(f"Smalles number is {smallest}")
+print(f"Smallest number is {smallest}")
