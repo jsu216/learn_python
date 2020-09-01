@@ -8,7 +8,7 @@ Python is an [interpreted](https://en.wikipedia.org/wiki/Interpreted_language) [
 
 - 2.x
 
-    Python 2.x will got to end of life soon. It is only in maintenance mode to support old python programs. Python 3.x is recommended for new python programmers.
+    Python 2.x will get to end of life soon. It is only in maintenance mode to support old python programs. Python 3.x is recommended for new python programmers.
 
 - 3.x
 
