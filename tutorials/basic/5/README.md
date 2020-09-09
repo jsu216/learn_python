@@ -2,7 +2,7 @@
 
 ## Function
 
-You need to reuse you code as much as possible. Function provides a way to reuse your code in different places.
+You need to reuse your code as much as possible. Function provides a way to reuse your code in different places.
 
 ### Built in functions
 
@@ -209,7 +209,7 @@ But first we need to create a new file to play with, say `myfile.txt`
 ### Read files
 
 ```text
->>> test_file = open('.\\test.txt')
+>>> test_file = open('.\\myfile.txt')
 >>> text = test_file.read()
 >>> print(text)
 ```
