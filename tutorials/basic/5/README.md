@@ -24,11 +24,8 @@ help(print)
 len('this is a test string')
 ```
 
-- The `dir` function (short for directory) returns information about any 
-value. Basically, it tells you the functions that can be used with 
-that value in alphabetical order. 
-For example, to display the functions that are available for a 
-list value, enter this: 
+- The `dir` function (short for directory) returns information about any value. Basically, it tells you the functions that can be used with that value in alphabetical order.
+For example, to display the functions that are available for a list value, enter this:
 
 ```python
 myvar=123
@@ -39,18 +36,14 @@ dir(myvar)
 ['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'as_integer_ratio', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
 ```
 
-- The `eval` function is often used to turn user input into Python 
-expressions. For example, you could write a simple calculator pro-
-gram that reads equations entered into Python and then calculates 
-(evaluates) the answers. 
+- The `eval` function is often used to turn user input into Python expressions. For example, you could write a simple calculator program that reads equations entered into Python and then calculates (evaluates) the answers.
 
 ```python
 eval('12*52+30/2-5')
 ```
 
 - `float` and `int` function
-The `float` function converts a string or a number into a floating-point number, which is a number with a decimal place (also called a real number). For example, the number 10 is an integer (also called a whole number), but 10.0, 
-10.1, and 10.253 are all floating-point numbers (also called floats).
+The `float` function converts a string or a number into a floating-point number, which is a number with a decimal place (also called a real number). For example, the number 10 is an integer (also called a whole number), but 10.0, 10.1, and 10.253 are all floating-point numbers (also called floats).
 
 ```text
 >>> float('123.456789')
@@ -136,6 +129,7 @@ If you then print the returned value when calling range, you’ll see the number
 >>> print(list(range(0, 5)))
 [0, 1, 2, 3, 4]
 ```
+
 You can also add a third parameter to range, called step.
 If the step value is not included, the number 1 is used as the step by default.
 But what happens when we pass in the number 2 as the step? Here’s the result:
@@ -202,7 +196,6 @@ python3 scope.py
 ## Working with files
 
 Files on your computer are documents, pictures, music, games, and etc. Everything on your computer is stored as files.
- 
 Let’s look at how to open and work with files in Python by using the built-in function open.
 But first we need to create a new file to play with, say `myfile.txt`
 
@@ -220,7 +213,6 @@ But first we need to create a new file to play with, say `myfile.txt`
 >>> test_file = open('c:\\myfile2.txt', 'w')
 test_file.write('this is my test file')
 ```
-
 
 ## Handle exceptions
 
