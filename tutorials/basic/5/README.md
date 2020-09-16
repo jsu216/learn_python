@@ -217,9 +217,8 @@ But first we need to create a new file to play with, say `myfile.txt`
 ### Write files
 
 ```text
->>> test_file = open('c:\\myfile2.txt', 'w')test_file.write('this is my test file')
-test_file.write('this is my second text file!')
-
+>>> test_file = open('c:\\myfile2.txt', 'w')
+test_file.write('this is my test file')
 ```
 
 
