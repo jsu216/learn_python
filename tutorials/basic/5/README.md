@@ -214,6 +214,13 @@ But first we need to create a new file to play with, say `myfile.txt`
 test_file.write('this is my test file')
 ```
 
+### Practise
+
+Create a Python program to copy a file.
+(Hint: You’ll need to open the file that you want to copy, read it in, and then create a new file—the copy.)
+Check that your program works by printing the contents of the new file on the screen.
+
+
 ## Handle exceptions
 
 Exceptions are the errors happened while program running. If the errors are not handled in Python program, it will be thrown to the system (OS).
@@ -235,23 +242,4 @@ finally:
 
 ```shell script
 python3 tryexcept.py
-```
-
-## Module
-
-Modules are used to group functions, variables, and other things together into larger, more powerful programs.
-Some modules are built in to Python, and you can download other modules separately.
-
-You’ll find modules to help you write games (such as tkinter , which is built in, and PyGame , which is not),
-
-### Use module
-
-```python
-import time
-
-print(time.asctime())
-```
-
-```shell script
-python3 module.py
 ```
