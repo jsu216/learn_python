@@ -145,6 +145,17 @@ In the example above,  one giraffe, reginald would be walking, and the other, ha
 
 Run this [giraffes.py](giraffes.py) as an example.
 
+### Exercise
+
+1. Create at least 3 levels of class and sub classes. Define 2 or more properties and functions in each level
+    - Draw diagram on paper with these classes and their properties and functions
+    - Write a python program with the design above, create one or more object instance from the classes and call the there functions
+
+2. Design a python class called `Converter`. It must have the following features:
+    - convert temerature between `Celsius` to `Fahrenheit` using the formular: Celsius x 1.8 + 32 = Fahrenheit
+    - convert length unit between `inch` and `centimeter` using the formular: inch x 2.54 = cm
+    - Ask user to input lengh or temerature and convert the user input and print the result in console
+
 ## Module
 
 Modules are used to group functions, variables, and other things together into larger, more powerful programs.
