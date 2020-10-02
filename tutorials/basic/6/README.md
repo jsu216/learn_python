@@ -152,9 +152,10 @@ Run this [giraffes.py](giraffes.py) as an example.
     - Write a python program with the design above, create one or more object instance from the classes and call the there functions
 
 2. Design a python class called `Converter`. It must have the following features:
-    - convert temerature between `Celsius` to `Fahrenheit` using the formular: Celsius x 1.8 + 32 = Fahrenheit
-    - convert length unit between `inch` and `centimeter` using the formular: inch x 2.54 = cm
-    - Ask user to input lengh or temerature and convert the user input and print the result in console
+    - Convert temperature between `Celsius` and `Fahrenheit` using the formula: Celsius x 1.8 + 32 = Fahrenheit
+    - Convert length unit between `inch` and `centimeter` using the formula: inch x 2.54 = cm
+    - the class `Converter` must have at least 2 functions defined to support the above 2 features
+    - Optional: Ask user to input length or temperature and convert the user input and print the result in console
 
 ## Module
 
