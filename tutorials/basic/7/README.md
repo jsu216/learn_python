@@ -68,3 +68,5 @@ This just clears the screen and leaves the turtle where it is.
 ### Exercise
 
 - Draw a square with 100 x 100 pixels dimension.
+
+- [More fun stuff](https://realpython.com/beginners-guide-python-turtle/)
